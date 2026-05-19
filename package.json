@@ -1,22 +1,19 @@
 {
   "name": "solana-batched",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Fireblocks × Solana batched transaction demo",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "demo": "tsx demo.ts",
+    "typecheck": "tsc --noEmit"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.26.2",
   "dependencies": {
-    "@fireblocks/ts-sdk": "^19.0.0",
-    "dotenv": "^17.4.2"
+    "@fireblocks/ts-sdk": "^5.0.0",
+    "dotenv": "^16.0.0"
   },
   "devDependencies": {
-    "@types/node": "^25.9.0",
-    "tsx": "^4.22.2",
-    "typescript": "^6.0.3"
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
   }
 }
