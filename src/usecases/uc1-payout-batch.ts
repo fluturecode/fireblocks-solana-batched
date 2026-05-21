@@ -1,7 +1,4 @@
-/**
- * src/usecases/uc1-payout-batch.ts
- *
- * UC1 — Standard Payout Batch (2 destinations)
+/** UC1 — Standard Payout Batch (2 destinations)
  *
  * The simplest demonstration of Fireblocks batching on Solana.
  * One TRANSFER request, two entries in destinations[], one txHash.
